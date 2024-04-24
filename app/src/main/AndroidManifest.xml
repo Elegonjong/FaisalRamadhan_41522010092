@@ -13,6 +13,21 @@
         android:theme="@style/Theme.TB"
         tools:targetApi="31">
         <activity
+            android:name=".layer4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".layer3"
+            android:exported="false" />
+        <activity
+            android:name=".layer2"
+            android:exported="false" />
+        <activity
+            android:name=".layout2"
+            android:exported="false" />
+        <activity
             android:name=".layout2"
             android:exported="false" />
         <activity
