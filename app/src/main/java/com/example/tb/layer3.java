@@ -27,4 +27,8 @@ public class layer3 extends AppCompatActivity {
         Intent back = new Intent(layer3.this, layer2.class);
         startActivity(back);
     }
+    public void login(View view) {
+        Intent login = new Intent(layer3.this, HomePage.class);
+        startActivity(login);
+    }
 }

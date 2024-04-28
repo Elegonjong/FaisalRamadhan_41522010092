@@ -1,6 +1,8 @@
 package com.example.tb;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,9 @@ public class layer4 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    public void register(View view) {
+        Intent register = new Intent(layer4.this, layer3.class);
+        startActivity(register);
     }
 }
