@@ -2,4 +2,5 @@
 <resources>
     <drawable name="airmancur" />
     <drawable name="slideaqua" />
+    <drawable name="barcod_btl" />
 </resources>

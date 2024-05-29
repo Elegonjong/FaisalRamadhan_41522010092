@@ -1,6 +1,8 @@
 package com.example.tb;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -32,4 +34,13 @@ public class HomePage extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.hal_view);
         drawerLayout.openDrawer(GravityCompat.END);
     }
+    public void scan(View view) {
+        Intent scan = new Intent(HomePage.this, scan_tutup_botol.class);
+        startActivity(scan);
+    }
+    public void extravaganza(View view) {
+        Intent extravaganza = new Intent(HomePage.this, selamat.class);
+        startActivity(extravaganza);
+    }
+
 }

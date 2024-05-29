@@ -1,2 +1,4 @@
-package com.example.tb;public class view {
+package com.example.tb;
+
+public class view {
 }

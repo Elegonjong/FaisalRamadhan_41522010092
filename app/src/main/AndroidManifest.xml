@@ -13,30 +13,53 @@
         android:theme="@style/Theme.TB"
         tools:targetApi="31">
         <activity
+            android:name=".rolet"
+            android:exported="false" />
+
+        <activity
+            android:name=".selamat"
+            android:exported="false" />
+
+        <activity
+            android:name=".redeem1"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity_redeem2"
+            android:exported="false" />
+
+        <activity
+            android:name=".scan_tutup_botol4"
+            android:exported="false" />
+
+        <activity
+            android:name=".scan_tutup_botol3"
+            android:exported="false" />
+
+        <activity
+            android:name=".scan_tutup_botol2"
+            android:exported="false" />
+
+        <activity
+            android:name=".scan_tutup_botol"
+            android:exported="false" />
+
+        <activity
             android:name=".HomePage"
             android:exported="false" />
+
         <activity
             android:name=".layer4"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
+
         <activity
             android:name=".layer3"
             android:exported="false" />
+
         <activity
             android:name=".layer2"
             android:exported="false" />
-        <activity
-            android:name=".layout2"
-            android:exported="false" />
-        <activity
-            android:name=".layout2"
-            android:exported="false" />
-        <activity
-            android:name=".layout2"
-            android:exported="false"
-            tools:ignore="DuplicateActivity" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

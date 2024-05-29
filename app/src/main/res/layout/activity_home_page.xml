@@ -85,7 +85,7 @@
                         android:id="@+id/hori1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bpage3"
+                        android:background="@drawable/apatuh"
                         android:layout_alignParentLeft="true"
                         android:layout_marginLeft="10dp"
                         android:layout_alignParentTop="true"/>
@@ -94,9 +94,10 @@
                         android:id="@+id/relative1"
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bpage2"
+                        android:background="@drawable/tutol"
                         android:layout_alignParentTop="true"
                         android:layout_marginLeft="10dp"
+                        android:onClick="scan"
                         android:layout_toRightOf="@id/hori1">
 
                         <View
@@ -108,22 +109,6 @@
                             android:layout_marginLeft="26dp"
                             android:layout_marginTop="51dp"/>
 
-                        <View
-                            android:layout_width="88dp"
-                            android:layout_height="21dp"
-                            android:layout_alignParentLeft="true"
-                            android:layout_marginLeft="124dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginTop="58dp"
-                            android:background="#1A529D"/>
-                        <View
-                            android:layout_width="140dp"
-                            android:layout_height="21dp"
-                            android:layout_alignParentLeft="true"
-                            android:layout_marginLeft="123dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginTop="100dp"
-                            android:background="#1A529D"/>
                     </RelativeLayout>
 
                     <View
@@ -179,49 +164,61 @@
                     android:layout_marginLeft="51dp"
                     android:layout_marginTop="120dp"
                     android:fontFamily="@font/montserratregular"/>
-
-
             </RelativeLayout>
 
             <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/frame1"
-                android:layout_marginTop="774dp"
-                android:layout_marginLeft="31dp">
+                android:id="@+id/redeemvaganza"
+                android:layout_width="368dp"
+                android:layout_height="122dp"
+                android:layout_below="@+id/vaganza_fie"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="23dp"
+                android:background="@drawable/redeemvaganza"
+                android:onClick="redeemvaganza"></RelativeLayout>
 
-            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/extravaganza"
+                android:layout_width="368dp"
+                android:layout_height="122dp"
+                android:layout_alignBottom="@+id/hadiah_mena"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginBottom="210dp"
+                android:onClick="extravaganza"
+                android:background="@drawable/extravaganza"></RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/royalvaganza"
+                android:layout_width="368dp"
+                android:layout_height="122dp"
+                android:layout_alignBottom="@+id/hadiah_mena"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="109dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/royalvaganza"></RelativeLayout>
+
 
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/frame2"
-                android:layout_marginTop="774dp"
-                android:layout_marginLeft="224dp">
-
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/frame3"
-                android:layout_marginTop="1004dp"
-                android:layout_marginLeft="31dp"/>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/frame4"
-                android:layout_marginTop="1004dp"
-                android:layout_marginLeft="224dp"/>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/frame5"
+                android:layout_marginLeft="31dp"
                 android:layout_marginTop="1297dp"
-                android:layout_marginLeft="31dp"/>
+                android:background="@drawable/frame5" />
 
             <TextView
+                android:id="@+id/vaganza_fie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Vaganza Fiesta"
@@ -232,18 +229,16 @@
                 android:textColor="#4D4D4D"/>
 
             <TextView
+                android:id="@+id/hadiah_mena"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hadia Menarik"
+                android:text="Hadiah Menarik"
                 android:fontFamily="@font/montserratbold"
                 android:layout_marginTop="1254dp"
                 android:layout_marginLeft="31dp"
                 android:textSize="18dp"
                 android:textColor="#FFFFFF"/>
         </RelativeLayout>
-
-
-
 
 
     </ScrollView>

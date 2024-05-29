@@ -1,2 +1,4 @@
-package com.example.tb;public class CaptureAct {
+package com.example.tb;
+
+public class CaptureAct {
 }

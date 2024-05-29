@@ -1,3 +1,132 @@
 <resources>
-    <string name="app_name">TB</string>
+    <string name="app_name">My Application</string>
+    <string name="terpercaya_">Terpercaya lebih\ndari 45 tahun</string>
+
+    <string name="kebaikan_al">
+        Kebaikan Alam\nKebaikan Hidup
+    </string>
+
+    <string name="login">
+        Login
+    </string>
+
+    <string name="email">
+        Email
+    </string>
+
+    <string name="password">
+        Kata Sandi
+    </string>
+
+    <string name="kebaikan_be">
+        KEBAIKAN\nBERAWAL\nDARI SINI
+    </string>
+
+    <string name="selamat_pag">Selamat Pagi </string>
+
+    <string name="olivia_gabr">
+        olivia.gabrielle@gmail.com
+    </string>
+
+    <string name="scan_kode_d">
+        Scan kode dibalik\n tutup botol dan\n tukarkan hadiah\n menarik
+    </string>
+
+    <string name="vaganza_fie">
+        Vaganza Fiesta
+    </string>
+
+    <string name="hadiah_mena">
+        Hadiah Menarik
+    </string>
+
+    <string name="temukan_kod">
+        Temukan kode\ndibalik tutup botol
+    </string>
+
+    <string name="some_id">
+        30
+    </string>
+
+    <string name="scan_tutup_">
+        Scan Tutup Botol
+    </string>
+
+    <string name="total_tutup">
+        Total Tutup Botol\n<b>Olivia Gabrielle</b> <font color="#1A529D">30</font>
+    </string>
+
+    <string name="setiap_kali">
+        Setiap kali Anda berhasil memindai kode yang belum pernah diklaim sebelumnya, Anda akan menerima 1 poin.
+    </string>
+
+    <string name="scan_ktp_un">
+        Scan KTP untuk melanjutkan proses klaim tutup botol. Pastikan foto KTP terlihat dengan jelas
+    </string>
+
+    <string name="selamat">
+        Selamat Anda Berhasil\nKlaim Tutup Botol 🎉
+    </string>
+
+    <string name="klaim">
+        Klaim tutup botol lainnya dan\ntukarkan hadiah menarik
+    </string>
+
+    <string name="redeem">
+        Redeem Vaganza
+    </string>
+
+    <string name="point">
+        400
+    </string>
+
+    <string name="redem">
+        redeem
+    </string>
+
+    <string name="vaganza">
+        Redeem Vaganza
+    </string>
+
+    <string name="sistem">
+        sistem
+    </string>
+
+    <string name="periode">
+        Periode Penukaran
+    </string>
+
+    <string name="pengguna">
+        Pengguna menukarkan hadiah\n dengan memilih katalog
+    </string>
+
+    <string name="kapansaja">
+        kapan saja selama periode\n program masih aktif
+    </string>
+
+    <string name="selamatanda">
+        Selamat Anda Mendapatkan\n Undian ExtraVaganza🎉
+    </string>
+
+    <string name="diskon_traveloka">
+        Diskon 70% Hotel\n di Aplikasi Traveloka
+    </string>
+
+    <string name="penukaran">
+        Periode\nPenukaran
+    </string>
+
+    <string name="penggunaroyal">
+        Pengguna mendapatkan undian hadiah secara reguler
+    </string>
+
+    <string name="akhirbulan">
+        Setiap akhir bulan
+    </string>
+
+    <string name="anda_belum_melakukan_penukaran_pada_bulan_ini">
+        Anda belum melakukan penukaran\npada bulan ini
+    </string>
+
+
 </resources>
